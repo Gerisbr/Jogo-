@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&family=MedievalSharp&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    
+}
+body {
+    min-height:854px;
+    background-image: url('../img/super-trunfo-bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 0vh;
+    color: #fff;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+button, .btn-jogar {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding:0.8em 1.5em;
+    color: rgb(248, 38, 10);
+    background-color: #ffffff;
+    border: none;
+    border-radius:5px;
+    margin-top:15px
+}
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+    color: #ee0909;
+    font-size: 50px;
+    margin: 30px;
+}
+
+h2 {
+    letter-spacing: 1px;
+    margin: 10px;
+    color: #3362e2;
+    background: rgb(255, 255, 255);
+}
+
+h3 {
+    color: #222;
+}
+.area {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#carta-jogador,
+#carta-maquina {
+    width: 360px;
+    height:515px;
+    border-radius:10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x:5px;
+    background-position-y: 10px;
+    border-radius:33px;
+    
+}
+
+
+#carta-jogador img,
+#carta-maquina img {
+    width: inherit;
+    height: inherit;
+
+}
+
+.nome-personagem-jogador, 
+.nome-personagem-maquina {
+    position: relative;
+    transform: translateY(-492px);
+}
+
+.atributos-jogador,
+.atributos-maquina {
+    position: relative;
+    transform: translateY(-210px);
+    list-style: none;
+    padding: 0;
+    padding-top: 25px;
+}
+
+.versus {
+    font-size:200px;
+    padding-top: 120px;
+    font-family: 'MedievalSharp', cursive;
+    color: #f7084f;
+}
